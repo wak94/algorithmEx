@@ -1,5 +1,7 @@
 package Day_2023_1_19;
 
+import org.junit.jupiter.api.Test;
+
 import java.util.HashSet;
 import java.util.Set;
 
@@ -7,6 +9,12 @@ import java.util.Set;
  * @author wak
  */
 public class T2299 {
+
+    @Test
+    public void test() {
+        int a = 1;
+    }
+
     public boolean strongPasswordCheckerII(String password) {
         int n = password.length();
         if (n < 8) {
